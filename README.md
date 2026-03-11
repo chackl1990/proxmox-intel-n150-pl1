@@ -1,4 +1,4 @@
-# rapl-pl1-linear
+# Proxmox Intel N150 linear Power Limmit by load1m
 
 Dynamic Intel RAPL power limit controller for Linux.
 
@@ -215,14 +215,12 @@ constraint_0_time_window_us
 
 # Compatibility
 
-Tested on:
-
-- Intel N100
-- Intel N150
-- Debian / Ubuntu
-- Proxmox VE
-
+Tested on Terramaster F4-425 plus (Intel N150 with Proxmox 9.x)
 Other Intel CPUs supporting RAPL should work as well.
+
+# Results on Terramaster F4-425 plus
+
+After enabeling the scrip my System with 2xNVME + 1xHDD in sleep got down to a average load of 17.6 Watts keeping the cpu temperature at ~40°C.
 
 ---
 
