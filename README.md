@@ -86,7 +86,7 @@ PL2 = PL1 + 2W
 You can install the service directly from GitHub using a one-line command - log in as root
 
 ```
-wget -qO- https://raw.githubusercontent.com/YOURUSER/rapl-pl1-linear/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/chackl1990/proxmox-intel-n150-pl1/main/install.sh | bash
 ```
 
 This command will:
@@ -115,7 +115,7 @@ To completely remove the service:
 log in as root
 
 ```
-wget -qO- https://raw.githubusercontent.com/YOURUSER/rapl-pl1-linear/main/uninstall.sh | bash
+wget -qO- https://raw.githubusercontent.com/chackl1990/proxmox-intel-n150-pl1/main/uninstall.sh | bash
 ```
 
 This will:
