@@ -1,4 +1,4 @@
-# Proxmox Intel N150 linear Power Limit by load1m
+# Proxmox Intel N150 linear power limit by load1m
 
 Dynamic Intel RAPL power limit controller for Linux.
 
