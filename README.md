@@ -83,10 +83,10 @@ PL2 = PL1 + 2W
 
 # Installation
 
-You can install the service directly from GitHub using a one-line command.
+You can install the service directly from GitHub using a one-line command - log in as root
 
 ```
-wget -qO- https://raw.githubusercontent.com/YOURUSER/rapl-pl1-linear/main/install.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/YOURUSER/rapl-pl1-linear/main/install.sh | bash
 ```
 
 This command will:
@@ -112,9 +112,10 @@ This command will:
 # Uninstall
 
 To completely remove the service:
+log in as root
 
 ```
-wget -qO- https://raw.githubusercontent.com/YOURUSER/rapl-pl1-linear/main/uninstall.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/YOURUSER/rapl-pl1-linear/main/uninstall.sh | bash
 ```
 
 This will:
