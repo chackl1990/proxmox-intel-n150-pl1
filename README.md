@@ -218,6 +218,8 @@ constraint_0_time_window_us
 Tested on Terramaster F4-425 plus (Intel N150 with Proxmox 9.x)
 Other Intel CPUs supporting RAPL should work as well.
 
+---
+
 # Results on Terramaster F4-425 plus
 
 After enabeling the scrip my System with 2xNVME + 1xHDD in sleep got down to a average load of 17.6 Watts keeping the cpu temperature at ~40°C.
